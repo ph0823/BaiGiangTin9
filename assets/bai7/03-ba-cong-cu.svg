@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" role="img" aria-label="Minh họa trực quan ba công cụ trình bày, tổ chức ý và tính toán"><rect width="960" height="520" rx="18" fill="#f7fbff"/>
+<g font-family="Arial">
+<rect x="26" y="49" width="283" height="415" rx="21" fill="white" stroke="#cbddec" stroke-width="3"/>
+<rect x="339" y="49" width="283" height="415" rx="21" fill="white" stroke="#cbddec" stroke-width="3"/>
+<rect x="652" y="49" width="283" height="415" rx="21" fill="white" stroke="#cbddec" stroke-width="3"/>
+<text x="167" y="90" text-anchor="middle" font-size="25" font-weight="bold" fill="#173456">BÀI TRÌNH CHIẾU</text>
+<text x="480" y="90" text-anchor="middle" font-size="25" font-weight="bold" fill="#173456">SƠ ĐỒ TƯ DUY</text>
+<text x="793" y="90" text-anchor="middle" font-size="25" font-weight="bold" fill="#173456">BẢNG TÍNH</text>
+<rect x="55" y="120" width="225" height="204" rx="12" fill="#eaf3ff" stroke="#6095d0" stroke-width="4"/><rect x="71" y="141" width="193" height="32" rx="4" fill="#286db7"/>
+<text x="167" y="163" text-anchor="middle" font-size="17" font-weight="bold" fill="white">LỊCH SỬ MÁY TÍNH</text>
+<circle cx="104" cy="235" r="26" fill="#dfb67d"/><rect x="143" y="208" width="97" height="54" rx="7" fill="#d4e5fa" stroke="#5b88bd" stroke-width="3"/><path d="M167 272 h48" stroke="#5b88bd" stroke-width="4"/>
+<path d="M480 208 L421 260 M480 208 L537 260 M480 208 L480 145" stroke="#77a3d2" stroke-width="5"/>
+<rect x="424" y="127" width="113" height="57" rx="14" fill="#1a76b4"/><text x="480" y="161" fill="white" text-anchor="middle" font-size="18" font-weight="bold">KẾ HOẠCH</text>
+<rect x="354" y="254" width="115" height="65" rx="12" fill="#dbf0e5" stroke="#8ecbb0"/><rect x="492" y="254" width="115" height="65" rx="12" fill="#fff0cf" stroke="#e3b861"/>
+<text x="411" y="293" text-anchor="middle" font-size="17" fill="#174c40">Nội dung</text><text x="549" y="293" text-anchor="middle" font-size="17" fill="#815b22">Kinh phí</text>
+<rect x="676" y="129" width="232" height="205" rx="9" fill="#fff" stroke="#9eb7cd" stroke-width="3"/>
+<g stroke="#bcccd9" stroke-width="2"><path d="M676 163 H908"/><path d="M676 191 H908"/><path d="M676 219 H908"/><path d="M676 247 H908"/><path d="M676 275 H908"/><path d="M676 303 H908"/><path d="M676 331 H908"/><path d="M723 129 V334"/><path d="M769 129 V334"/><path d="M815 129 V334"/><path d="M861 129 V334"/><path d="M907 129 V334"/></g>
+<rect x="677" y="129" width="231" height="34" fill="#dff3e6"/><g fill="#25593c" font-size="17" text-anchor="middle"><text x="702" y="152">STT</text><text x="748" y="152">SL</text><text x="800" y="152">Đơn giá</text><text x="862" y="152">Tổng</text></g>
+<g fill="#42617a" font-size="16" text-anchor="middle"><text x="749" y="194">10</text><text x="800" y="194">2.000</text><text x="861" y="194">20.000</text><text x="749" y="222">5</text><text x="800" y="222">8.000</text><text x="861" y="222">40.000</text></g>
+<g text-anchor="middle" font-size="21" fill="#315372"><text x="167" y="392">Báo cáo theo trình tự</text><text x="480" y="392">Tổ chức ý và hợp tác</text><text x="793" y="392">Tính toán số liệu</text></g>
+</g>
+</svg>
