@@ -219,17 +219,89 @@ h3{font-size:19px;margin:9px 0}
 .file-view .file-preview{display:block;width:100%;max-height:185px;object-fit:contain;margin:7px auto;border:1px solid #d4e2ef;border-radius:10px;background:#f8fbff}
 .file-view h3{margin:7px 0 5px}
 @media(min-width:901px) and (max-height:800px){.file-view .file-preview{max-height:124px}}
+
+/* Hai trang mở đầu và tự học: chỉnh bố cục theo tỉ lệ 16:9 */
+.slide-opening .opening-cover{padding:16px 18px;background:linear-gradient(125deg,#f3f9ff 0%,#f4fbf9 100%)}
+.slide-opening .opening-hero{display:grid;grid-template-columns:minmax(0,1.08fr) minmax(0,.92fr);gap:16px;align-items:center}
+.slide-opening .opening-intro{min-width:0}
+.slide-opening h1{font-size:clamp(26px,2.6vw,38px);line-height:1.16;margin:9px 0 12px}
+.slide-opening .lead{font-size:17px;line-height:1.48;margin:9px 0}
+.slide-opening .opening-art{min-width:0;background:#eaf4ff;border:1px solid #d7e6f5;border-radius:12px;overflow:hidden}
+.slide-opening .opening-art img{display:block;width:100%;height:auto;max-height:245px;object-fit:contain}
+.slide-opening .opening-goals{margin-top:13px;gap:10px}
+.slide-opening .opening-goals .card{padding:11px 13px}
+.slide-opening .opening-goals b{display:block;font-size:17px;margin-bottom:3px}
+.slide-opening .opening-goals .small{font-size:14px;line-height:1.35}
+.slide-opening .opening-task{margin:12px 0 8px;padding:9px 12px;line-height:1.4}
+.slide-opening .opening-student{display:grid;grid-template-columns:auto minmax(160px,250px) 1fr;align-items:center;gap:10px}
+.slide-opening .opening-student .label{margin:0;font-size:15px}
+.slide-opening .opening-student input{height:40px}
+.slide-opening .opening-student .note{font-size:13px}
+.slide[data-title="Đọc và tìm hiểu"] .tools-figure{padding:8px 12px;background:#f8fbff}
+.slide[data-title="Đọc và tìm hiểu"] .tools-figure .lesson-graphic{display:block;width:100%;height:auto;max-height:none;object-fit:fill}
+.slide[data-title="Đọc và tìm hiểu"] .tool-descriptions{gap:11px}
+.slide[data-title="Đọc và tìm hiểu"] .tool-descriptions .card{padding:11px 13px}
+.slide[data-title="Đọc và tìm hiểu"] .tool-descriptions h3{font-size:19px;margin:1px 0 6px}
+.slide[data-title="Đọc và tìm hiểu"] .tool-descriptions p{font-size:16px;line-height:1.45;margin:0}
+.slide[data-title="Đọc và tìm hiểu"] .readpanel{margin-top:10px;padding:10px 13px}
+.slide[data-title="Đọc và tìm hiểu"] .note{margin:8px 0 0}
+@media(min-width:901px) and (max-height:800px){
+ .slide-opening .opening-cover{padding:12px 15px}
+ .slide-opening h1{font-size:29px;margin:7px 0 9px}
+ .slide-opening .lead{font-size:16px;line-height:1.38}
+ .slide-opening .opening-art img{max-height:205px}
+ .slide-opening .opening-goals{margin-top:10px}
+ .slide-opening .opening-goals .card{padding:9px 11px}
+ .slide-opening .opening-task{margin:9px 0 7px;padding:8px 11px;font-size:15px}
+ .slide[data-title="Đọc và tìm hiểu"] .tools-figure .lesson-graphic{max-height:none}
+}
+@media(max-width:950px){
+ .slide-opening .opening-hero{grid-template-columns:1fr}
+ .slide-opening .opening-art img{max-height:165px}
+ .slide-opening .opening-student{grid-template-columns:1fr}
+ .slide-opening .opening-student input{max-width:100%}
+}
+@media(max-width:620px){
+ .slide-opening .opening-goals{grid-template-columns:1fr}
+ .slide-opening .opening-art img{max-height:130px}
+ .slide-opening h1{font-size:27px}
+ .slide[data-title="Đọc và tìm hiểu"] .tool-descriptions{grid-template-columns:1fr}
+}
+
 </style>
 </head>
 <body>
 <header class="top no-print"><div class="wrap head"><div class="identity" title="TIN HỌC 9 · BÀI 7 — TRÌNH BÀY THÔNG TIN TRONG TRAO ĐỔI VÀ HỢP TÁC"><span class="course-name">TIN HỌC 9 · BÀI 7</span><span class="title-divider">—</span><span class="lesson-name">TRÌNH BÀY THÔNG TIN TRONG TRAO ĐỔI VÀ HỢP TÁC</span></div><div class="head-right"><span id="status" class="pill">Tiến độ: 0/12</span><button class="btn sm" id="guideBtn" type="button" aria-expanded="false" aria-controls="instructions">Hướng dẫn</button><button class="btn sm" id="printBtn">In phiếu</button><button class="btn sm" id="resetBtn">Làm mới</button></div></div><div class="progress"><div class="bar" id="progressBar"></div></div></header>
 <div class="wrap no-print"><div id="instructions" class="instructions"><h3>Hướng dẫn sử dụng bài giảng</h3><p>Chọn số trang ở cột bên trái hoặc dùng nút <b>Trước / Tiếp theo</b>. Đọc nhiệm vụ, tự chọn đáp án và nhấn <b>Kiểm tra</b> hoặc <b>Gợi ý</b> ở từng hoạt động. Trang đã xem được đánh dấu hoàn thành; bài làm, lựa chọn và tiến độ được lưu tự động trên chính trình duyệt, kể cả khi nhấn F5.</p><p>Ở trang 7, chọn từng nhánh sơ đồ để xem <b>bản mô phỏng</b> nội dung các tệp DOCX, PNG, XLSX và video. Đây là tư liệu minh họa tích hợp, không phải tệp tải xuống. Trang 10–11 cho phép viết kế hoạch nhóm và tự đánh giá. Nút <b>In phiếu</b> in báo cáo học tập theo dữ liệu đã nhập.</p><p>Ứng dụng không cần tài khoản và không gửi thông tin đến máy chủ. Nếu dùng máy chung, không nhập thông tin nhạy cảm; nhấn <b>Làm mới</b> khi muốn xóa dữ liệu bài học trên máy này. Nếu nhúng vào Google Sites, giáo viên nên để khung nhúng đủ rộng để trình chiếu dễ đọc.</p></div></div>
 <div class="wrap shell no-print"><aside class="side" id="navigation"><h3>HÀNH TRÌNH 45 PHÚT</h3></aside><main class="main">
-<section class="slide active" data-title="Bắt đầu">
-<div class="kicker">Chủ đề 4 · Ứng dụng tin học</div><div class="cover"><div class="badge">TỰ HỌC CÓ HƯỚNG DẪN · 45 PHÚT</div><h1>Bài 7. Trình bày thông tin trong trao đổi và hợp tác</h1><p class="lead">Một nhóm muốn tổ chức <b>“Triển lãm tin học”</b>. Làm thế nào để mọi người hiểu ý tưởng, tìm được tài liệu và phối hợp hiệu quả?</p><div class="cover-illustration"><img class="lesson-graphic" src="assets/bai7/01-trien-lam.svg" alt="Sơ đồ dự án Triển lãm tin học và các nhóm việc" loading="lazy" decoding="async"></div><div class="grid3"><div class="card"><div class="miniicon">▤</div><b>Chọn công cụ</b><div class="small muted">Bài trình chiếu hay sơ đồ tư duy?</div></div><div class="card"><div class="miniicon">▧</div><b>Kết hợp tư liệu</b><div class="small muted">Ảnh, video, biểu đồ, bảng tính</div></div><div class="card"><div class="miniicon">◇</div><b>Hợp tác</b><div class="small muted">Chia sẻ, đính kèm và phân công</div></div></div></div><div class="task"><b>Nhiệm vụ:</b> Tự quan sát, đọc học liệu, thử nghiệm, giải thích và hoàn thiện một kế hoạch nhóm nhỏ. Có thể học cá nhân hoặc theo cặp.</div><label class="label" for="student">Tên hoặc mã học sinh (không bắt buộc)</label><input type="text" id="student" placeholder="Ví dụ: HS 01" maxlength="60"><p class="note">Thông tin chỉ lưu trên thiết bị đang sử dụng.</p>
+<section class="slide active slide-opening" data-title="Bắt đầu">
+<div class="kicker">Chủ đề 4 · Ứng dụng tin học</div>
+<div class="cover opening-cover">
+  <div class="opening-hero">
+    <div class="opening-intro">
+      <div class="badge">TỰ HỌC CÓ HƯỚNG DẪN · 45 PHÚT</div>
+      <h1>Bài 7. Trình bày thông tin trong trao đổi và hợp tác</h1>
+      <p class="lead">Một nhóm muốn tổ chức <b>“Triển lãm tin học”</b>. Làm thế nào để mọi người hiểu ý tưởng, tìm được tài liệu và phối hợp hiệu quả?</p>
+    </div>
+    <div class="opening-art">
+      <img src="assets/bai7/01-trien-lam.svg" alt="Dự án Triển lãm tin học với các nhóm việc và cách hợp tác" loading="eager" decoding="async">
+    </div>
+  </div>
+  <div class="grid3 opening-goals">
+    <div class="card"><b>Chọn công cụ</b><div class="small muted">Bài trình chiếu hay sơ đồ tư duy?</div></div>
+    <div class="card"><b>Kết hợp tư liệu</b><div class="small muted">Ảnh, video, biểu đồ, bảng tính</div></div>
+    <div class="card"><b>Hợp tác</b><div class="small muted">Chia sẻ, đính kèm và phân công</div></div>
+  </div>
+</div>
+<div class="task opening-task"><b>Nhiệm vụ:</b> Tự quan sát, đọc học liệu, thử nghiệm, giải thích và hoàn thiện một kế hoạch nhóm nhỏ. Có thể học cá nhân hoặc theo cặp.</div>
+<div class="opening-student">
+  <label class="label" for="student">Tên hoặc mã học sinh (không bắt buộc)</label>
+  <input type="text" id="student" placeholder="Ví dụ: HS 01" maxlength="60">
+  <span class="note">Chỉ lưu trên thiết bị đang sử dụng.</span>
+</div>
 </section>
 <section class="slide" data-title="Khởi động"><div class="kicker">01 · Khởi động · 5 phút</div><h2>Cần trình bày thông tin như thế nào?</h2><div class="task">Cùng là kế hoạch “Triển lãm tin học”. Hãy quan sát hai cách thể hiện dưới đây.</div><div class="comparison-layout"><div class="visual"><div class="visual-label">Cách A – Đoạn văn</div><div class="longcopy">Lớp 9 dự kiến tổ chức một triển lãm tin học nhằm giới thiệu lịch sử máy tính. Nhóm cần tìm tư liệu về máy tính cơ học, thu thập hình ảnh máy Pascaline, chuẩn bị thông tin về Charles Babbage và giới thiệu những phát minh nổi bật. Các bạn cũng phải tính kinh phí in ấn, chuẩn bị gian trưng bày và xác định ai chịu trách nhiệm phần nội dung, hình ảnh, tài chính và báo cáo. Mọi thành viên cần trao đổi và cập nhật tiến độ công việc trước ngày triển lãm.</div></div><div class="visual"><div class="visual-label">Cách B – Sơ đồ khái quát</div><div class="map map-lesson"><div class="map-center">TRIỂN LÃM TIN HỌC</div><div class="map-branches"><div class="map-node"><b>Nội dung</b><div class="tiny">Lịch sử máy tính</div></div><div class="map-node"><b>Hình ảnh</b><div class="tiny">Pascaline, nhân vật</div></div><div class="map-node"><b>Kinh phí</b><div class="tiny">In ấn, vật liệu</div></div><div class="map-node"><b>Phân công</b><div class="tiny">Thành viên, tiến độ</div></div></div></div></div></div><div class="visual example-strip"><img class="lesson-strip" src="assets/bai7/02-so-sanh.svg" alt="Hai kiểu trình bày cùng một kế hoạch: đoạn văn và sơ đồ khái quát" loading="lazy" decoding="async"><div class="note">Hình minh họa sự khác nhau giữa thông tin dạng đoạn văn và dạng sơ đồ.</div></div><h3>Em chọn cách nào để phân công công việc nhanh hơn?</h3><div id="warmChoices"><button class="choice" data-answer="A">A. Đoạn văn</button><button class="choice" data-answer="B">B. Sơ đồ khái quát</button><button class="choice" data-answer="C">C. Cả hai đều luôn như nhau</button></div><button class="btn light" data-check="warm">Kiểm tra lựa chọn</button><div class="answer hide" id="warmFeedback"></div><div class="callout"><b>Câu hỏi mở rộng:</b> Nếu muốn đứng trước lớp giới thiệu lịch sử máy tính theo từng mốc thời gian, liệu sơ đồ có luôn là cách thuận tiện nhất?</div></section>
-<section class="slide" data-title="Đọc và tìm hiểu"><div class="kicker">02 · Tự học kiến thức · 12 phút</div><h2>Ba công cụ – ba nhiệm vụ</h2><div class="task">Đọc phần kiến thức bài 7 trong SGK, sau đó đối chiếu ba tình huống dưới đây. Không cần học thuộc ngay: hãy suy luận từ mục đích sử dụng.</div><div class="visual tools-figure"><img class="lesson-graphic" src="assets/bai7/03-ba-cong-cu.svg" alt="Bài trình chiếu, sơ đồ tư duy và bảng tính có công dụng khác nhau" loading="lazy" decoding="async"></div><div class="grid3 tool-descriptions"><div class="card soft"><div class="miniicon">▤</div><h3>Bài trình chiếu</h3><p>Giới thiệu thông tin <b>theo trình tự</b>, phục vụ báo cáo, thuyết trình; có thể kết hợp chữ, hình, biểu đồ và video.</p></div><div class="card soft"><div class="miniicon">◇</div><h3>Sơ đồ tư duy</h3><p>Thể hiện <b>cấu trúc và mối liên hệ</b> giữa các ý, hỗ trợ phát triển ý tưởng và phân chia nhiệm vụ.</p></div><div class="card soft"><div class="miniicon">▦</div><h3>Bảng tính</h3><p>Phù hợp với <b>số liệu và tính toán</b>, chẳng hạn dự trù kinh phí của dự án. Đây là công cụ hỗ trợ.</p></div></div><div class="readpanel"><b>Ghi chú tự học:</b> Không có một công cụ tốt nhất cho mọi tình huống. Có thể kết hợp nhiều công cụ trong cùng dự án.</div><p class="note">Kiến thức được tổ chức theo KHBD Bài 7; phần giải thích về bảng tính là ví dụ ứng dụng hỗ trợ phân biệt công cụ.</p></section>
+<section class="slide" data-title="Đọc và tìm hiểu"><div class="kicker">02 · Tự học kiến thức · 12 phút</div><h2>Ba công cụ – ba nhiệm vụ</h2><div class="task">Đọc phần kiến thức bài 7 trong SGK, sau đó đối chiếu ba tình huống dưới đây. Không cần học thuộc ngay: hãy suy luận từ mục đích sử dụng.</div><div class="visual tools-figure"><img class="lesson-graphic" src="assets/bai7/03-ba-cong-cu.svg" alt="Bài trình chiếu để báo cáo theo trình tự, sơ đồ tư duy để tổ chức ý tưởng và bảng tính để tính số liệu" loading="eager" decoding="async"></div><div class="grid3 tool-descriptions"><div class="card soft"><div class="miniicon">▤</div><h3>Bài trình chiếu</h3><p>Giới thiệu thông tin <b>theo trình tự</b>, phục vụ báo cáo, thuyết trình; có thể kết hợp chữ, hình, biểu đồ và video.</p></div><div class="card soft"><div class="miniicon">◇</div><h3>Sơ đồ tư duy</h3><p>Thể hiện <b>cấu trúc và mối liên hệ</b> giữa các ý, hỗ trợ phát triển ý tưởng và phân chia nhiệm vụ.</p></div><div class="card soft"><div class="miniicon">▦</div><h3>Bảng tính</h3><p>Phù hợp với <b>số liệu và tính toán</b>, chẳng hạn dự trù kinh phí của dự án. Đây là công cụ hỗ trợ.</p></div></div><div class="readpanel"><b>Ghi chú tự học:</b> Không có một công cụ tốt nhất cho mọi tình huống. Có thể kết hợp nhiều công cụ trong cùng dự án.</div><p class="note">Kiến thức được tổ chức theo KHBD Bài 7; phần giải thích về bảng tính là ví dụ ứng dụng hỗ trợ phân biệt công cụ.</p></section>
 <section class="slide" data-title="Chọn công cụ"><div class="kicker">02 · Thử thách tự kiểm tra</div><h2>Chọn đúng công cụ cho từng việc</h2><div class="task">Với mỗi tình huống, chọn công cụ phù hợp nhất. Sau đó nhấn <b>Kiểm tra</b> để nhận lời giải thích.</div><div id="toolQuestions"></div><div class="row"><button class="btn primary" id="checkTools">Kiểm tra 3 tình huống</button><button class="btn" id="resetTools">Chọn lại</button></div><div id="toolFeedback" class="answer hide"></div></section>
 <section class="slide" data-title="Đa phương tiện"><div class="kicker">02 · Quan sát và nhận xét</div><h2>Hình ảnh, biểu đồ, video: dùng sao cho hợp lí?</h2><div class="visual slides-figure"><img class="lesson-graphic" src="assets/bai7/04-mau-trinh-chieu.svg" alt="So sánh ba mẫu trình chiếu: quá nhiều chữ, trực quan vừa đủ và quá nhiều trang trí" loading="lazy" decoding="async"></div><p><b>Mẫu nào phù hợp nhất để người nghe dễ theo dõi nội dung?</b></p><div id="mediaChoices" class="row"><button class="btn" data-answer="1">Mẫu 1</button><button class="btn" data-answer="2">Mẫu 2</button><button class="btn" data-answer="3">Mẫu 3</button></div><button class="btn light" data-check="media">Kiểm tra</button><div id="mediaFeedback" class="answer hide"></div><div class="well"><b>Em tự rút ra 3 nguyên tắc:</b><ol><li>Minh họa phải đúng mục đích, đúng nội dung.</li><li>Hình ảnh rõ nét, chữ dễ đọc, thông tin vừa đủ.</li><li>Sử dụng nguồn tư liệu phù hợp; không lạm dụng hiệu ứng.</li></ol></div></section>
 <section class="slide slide-discovery" data-title="Khám phá sơ đồ"><div class="kicker">03 · Tự khám phá · 15 phút</div><h2>Sơ đồ tư duy số có thể chứa những gì?</h2><div class="task">Quan sát sơ đồ của nhóm triển lãm. Bấm vào từng nhánh để khám phá loại tư liệu liên quan. Sau đó thử trả lời các câu hỏi ở trang kế tiếp.</div><div class="grid2 discovery-grid"><div class="visual"><div class="map interactive-map" aria-label="Sơ đồ tư duy bốn nhánh có thể chọn"><div class="map-center">TRIỂN LÃM TIN HỌC</div><div class="map-branches" id="fileNodes"><button class="map-node" type="button" data-file="doc" aria-pressed="false"><b><span class="type-icon type-doc">W</span> Nội dung</b><br><span class="tiny">CharlesBabbage.docx</span></button><button class="map-node" type="button" data-file="img" aria-pressed="false"><b><span class="type-icon type-img">IMG</span> Hình ảnh</b><br><span class="tiny">Pascaline.png</span></button><button class="map-node" type="button" data-file="xls" aria-pressed="false"><b><span class="type-icon type-xls">X</span> Kinh phí</b><br><span class="tiny">KinhPhi.xlsx</span></button><button class="map-node" type="button" data-file="video" aria-pressed="false"><b><span class="type-icon type-video">▶</span> Video</b><br><span class="tiny">Liên kết giới thiệu</span></button></div></div></div><div class="visual"><div class="visual-label">Tư liệu của nhánh được chọn</div><div id="fileContent" class="file-view"><p class="muted">Hãy chọn một nhánh trên sơ đồ.</p></div><p class="note">Các tệp ở đây là bản mô phỏng để học mà không cần Internet; không phải tệp đính kèm thật từ SGK. Video là bảng phân cảnh minh họa, không phát video bên ngoài.</p><p id="filesVisited" class="badge">Đã khám phá 0/4 nhánh</p></div></div></section>
