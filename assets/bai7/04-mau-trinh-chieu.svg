@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" role="img" aria-label="Ba cách thiết kế cùng một trang trình chiếu về lịch sử máy tính"><rect width="960" height="520" rx="18" fill="#f7fbff"/>
+<g font-family="Arial"><rect x="16" y="45" width="293" height="415" rx="18" fill="#fff" stroke="#bdcede" stroke-width="3"/>
+<rect x="332" y="45" width="293" height="415" rx="18" fill="#fff" stroke="#bdcede" stroke-width="3"/>
+<rect x="648" y="45" width="293" height="415" rx="18" fill="#fff" stroke="#bdcede" stroke-width="3"/>
+<g font-size="24" fill="#173456" font-weight="bold" text-anchor="middle"><text x="162" y="87">MẪU 1 · TOÀN CHỮ</text><text x="478" y="87">MẪU 2 · CÓ CHỌN LỌC</text><text x="794" y="87">MẪU 3 · QUÁ RỐI</text></g>
+<rect x="38" y="115" width="249" height="219" rx="9" fill="#fff" stroke="#a8bdd0" stroke-width="2"/>
+<text x="52" y="143" font-size="15" font-weight="bold" fill="#213650">LỊCH SỬ MÁY TÍNH</text><g fill="#aab6c5"><rect x="52" y="157" width="185" height="7" rx="3"/><rect x="52" y="172" width="200" height="7" rx="3"/><rect x="52" y="187" width="215" height="7" rx="3"/><rect x="52" y="202" width="185" height="7" rx="3"/><rect x="52" y="217" width="200" height="7" rx="3"/><rect x="52" y="232" width="215" height="7" rx="3"/><rect x="52" y="247" width="185" height="7" rx="3"/><rect x="52" y="262" width="200" height="7" rx="3"/><rect x="52" y="277" width="215" height="7" rx="3"/><rect x="52" y="292" width="185" height="7" rx="3"/><rect x="52" y="307" width="200" height="7" rx="3"/></g>
+<rect x="354" y="115" width="249" height="219" rx="9" fill="#f0f8ff" stroke="#8fb4d7" stroke-width="2"/>
+<rect x="367" y="129" width="222" height="40" rx="6" fill="#1e67ae"/><text x="478" y="156" text-anchor="middle" font-size="17" font-weight="bold" fill="white">LỊCH SỬ MÁY TÍNH</text>
+<circle cx="409" cy="228" r="29" fill="#e1b77e"/><rect x="458" y="194" width="111" height="72" rx="8" fill="#bfdaf4" stroke="#5c93ca" stroke-width="3"/><g fill="#355d86"><circle cx="493" cy="229" r="9"/><rect x="511" y="215" width="40" height="8" rx="3"/><rect x="511" y="230" width="31" height="8" rx="3"/></g><text x="478" y="299" text-anchor="middle" font-size="16" fill="#22547e">2 mốc chính + hình rõ</text>
+<rect x="670" y="115" width="249" height="219" rx="9" fill="#f9ecfc" stroke="#be79b7" stroke-width="3"/>
+<text x="795" y="151" text-anchor="middle" font-size="23" fill="#d0289c" font-weight="bold">★ LỊCH SỬ ★</text>
+<g font-size="42" text-anchor="middle"><text x="720" y="218" fill="#f0b100">★</text><text x="780" y="256" fill="#c833a6">✦</text><text x="857" y="215" fill="#1889c9">✱</text></g>
+<g fill="#a884bb"><rect x="685" y="268" width="210" height="4" rx="2"/><rect x="685" y="278" width="210" height="4" rx="2"/><rect x="685" y="288" width="210" height="4" rx="2"/><rect x="685" y="298" width="210" height="4" rx="2"/><rect x="685" y="308" width="210" height="4" rx="2"/></g>
+<g text-anchor="middle" font-size="20" fill="#315372"><text x="162" y="383">Nhiều chữ, khó theo dõi</text><text x="478" y="383">Rõ nội dung, vừa đủ</text><text x="794" y="383">Trang trí gây phân tán</text></g></g>
+</svg>
