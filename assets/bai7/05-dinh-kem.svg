@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" role="img" aria-label="So sánh sơ đồ tư duy có từ khóa và sơ đồ được gắn tệp DOCX PNG XLSX"><rect width="960" height="520" rx="18" fill="#f7fbff"/>
+<g font-family="Arial">
+<rect x="25" y="36" width="433" height="441" rx="20" fill="#fff" stroke="#bed4e8" stroke-width="3"/>
+<rect x="500" y="36" width="433" height="441" rx="20" fill="#fff" stroke="#bed4e8" stroke-width="3"/>
+<g fill="#173456" font-size="25" text-anchor="middle" font-weight="bold"><text x="241" y="82">CHỈ CÓ TỪ KHÓA</text><text x="717" y="82">KÈM TƯ LIỆU SỐ</text></g>
+<rect x="152" y="118" width="178" height="54" rx="14" fill="#2472b6"/><text x="241" y="152" text-anchor="middle" fill="#fff" font-size="19" font-weight="bold">Triển lãm</text>
+<rect x="629" y="118" width="178" height="54" rx="14" fill="#2472b6"/><text x="718" y="152" text-anchor="middle" fill="#fff" font-size="19" font-weight="bold">Triển lãm</text>
+<g stroke="#86afcf" stroke-width="4" fill="none"><path d="M241 172 V201 L119 229 M241 201 L357 229 M241 201 V349"/><path d="M718 172 V201 L595 229 M718 201 L835 229 M718 201 V349"/></g>
+<g fill="#eaf5ff" stroke="#a9cde9" stroke-width="3"><rect x="45" y="228" width="165" height="76" rx="13"/><rect x="274" y="228" width="165" height="76" rx="13"/><rect x="158" y="348" width="165" height="76" rx="13"/><rect x="519" y="228" width="165" height="76" rx="13"/><rect x="751" y="228" width="165" height="76" rx="13"/><rect x="634" y="348" width="165" height="76" rx="13"/></g>
+<g fill="#244d75" font-size="20" text-anchor="middle"><text x="127" y="270">Tiểu sử</text><text x="356" y="270">Pascaline</text><text x="241" y="390">Kinh phí</text><text x="600" y="270">Tiểu sử</text><text x="833" y="270">Pascaline</text><text x="718" y="390">Kinh phí</text></g>
+<g font-size="16" font-weight="bold" text-anchor="middle"><rect x="574" y="286" width="62" height="29" rx="7" fill="#2769b4"/><text x="605" y="306" fill="white">DOCX</text><rect x="809" y="286" width="50" height="29" rx="7" fill="#c17732"/><text x="834" y="306" fill="white">PNG</text><rect x="687" y="410" width="62" height="29" rx="7" fill="#19895c"/><text x="718" y="430" fill="white">XLSX</text></g>
+</g>
+</svg>
